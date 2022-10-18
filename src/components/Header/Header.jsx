@@ -1,10 +1,13 @@
 import React from "react";
 import style from "./Header.module.scss";
-const Header = () => {
+const Header = ({ indexOfFirstUser, indexOfLastUser }) => {
   return (
     <div>
-      <h3 className="{style.heading}">Employee List</h3>
-      <h5></h5>
+      <h3 className={style.heading}>Employee List</h3>
+      <h5 className={style.count}>
+        (Employees {indexOfFirstUser < 1 ? null : indexOfFirstUser} to{" "}
+        {indexOfLastUser})
+      </h5>
     </div>
   );
 };

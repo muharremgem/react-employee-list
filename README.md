@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+  Project Name       |Libraries and Technologies I use     |How does my project look   
+:-------------------------|-------------------------|-------------------------
+[Employee_list](https://react-employee-list.vercel.app/)| Js React Sass | ![Employee_list](employee.gif)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

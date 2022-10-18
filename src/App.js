@@ -1,9 +1,9 @@
 import "./App.scss";
-
+import EmployeeContainer from "./components/EmployeeContainer/EmployeeContainer.jsx";
 function App() {
   return (
     <div className="App">
-      <h1>muharrem</h1>
+      <EmployeeContainer />
     </div>
   );
 }
